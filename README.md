@@ -98,12 +98,6 @@ After testing, delete the following resources to avoid charges:
 3. **Delete the Load Balancer**
 4. **Terminate the EC2 instances**
 
----
-
-## 📌 Notes
-
-* You can repeat this process to scale horizontally by adding more EC2 instances to the target group.
-* ALB automatically balances incoming HTTP requests to healthy registered targets.
 
 ---
 
@@ -115,10 +109,7 @@ After testing, delete the following resources to avoid charges:
 | Load Balancer | Public Application Load Balancer      |
 | Target Group  | HTTP (80), Health Check `/index.html` |
 
----
-## 👨‍💻 Author
 
-**Atul Kamble**
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/atuljkamble)
 - 🐙 [GitHub](https://github.com/atulkamble)
